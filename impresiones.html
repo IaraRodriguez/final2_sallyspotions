@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Impresiones</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+
+</head>
+<body>
+<main>
+<header> 
+		<a href="index.html">
+		<img src="img/logonegativo.png" class="logonegativo"> </a>
+		<nav>
+		<h1 class="h1m">Pantallas del sitio</h1> 
+		</nav>
+	</header>
+
+
+<section class="sectionim">
+<div class="f-carousel" id="myCarousel">
+ 
+  <div class="f-carousel__slide">
+  	<h2 class="h2m">Home</h2>
+  	<img src="img/home.jpg" class="galeriaimpresiones">
+  </div>
+
+  <div class="f-carousel__slide">
+  	<h2 class="h2m">Encargos</h2>
+  	<img src="img/encargosuno.jpg" class="galeriaimpresiones">
+  </div>
+
+  <div class="f-carousel__slide">
+  	<h2 class="h2m">Encargos</h2>
+  	<img src="img/encargosdos.jpg" class="galeriaimpresiones">
+  </div>
+
+  <div class="f-carousel__slide">
+  	<h2 class="h2m">Productos</h2>
+  	<img src="img/productosuno.jpg" class="galeriaimpresiones">
+  </div>
+
+  <div class="f-carousel__slide">
+  	<h2 class="h2m">Productos</h2>
+  	<img src="img/productosdos.jpg" class="galeriaimpresiones">
+  </div>
+ 
+  </div>
+</div>
+
+ <script>
+ 	const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+
+ </script> 
+
+ <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+      new Carousel(document.getElementById("myCarousel"), {
+        Autoplay : {
+          timeout : 5000
+        }
+      }, {
+        Autoplay
+      });
+    </script>
+
+	</article> 
+</section>
+
+<footer>
+	<h3 class="h3footer">
+		<a href="micrositio.html" class="h3footer">Iara Rodríguez</a>
+	</h3> 
+</footer>
+
+</main>
+</body>
+</html>
